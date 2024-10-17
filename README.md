@@ -3,4 +3,4 @@ This is a landing page that was created based on [design solution in Figma](http
 
 Used technologies: HTML, CSS, JavaScript
 
-Deploy: https://lonelybush.github.io/RSS_School_2023Q4_Projects/coffee-house/index.html
+Deploy: https://lonelybush.github.io/coffee-house/coffee-house/index.html

@@ -183,15 +183,10 @@ function createModalElement(num){
   <p class = "type-additiv">${collectionOfCoffee[num].additives[2].name}</p>
 </div>`;
 
- //  console.log(collectionOfCoffee[num].sizes)
-   //console.log(collectionOfCoffee[num].additives[0].name)
-
 
 
 }
 
-//createModalElement(2)
-//console.log(collectionOfCoffee)
 
 const coffeeCards = document.querySelectorAll(".coffee-card")
 const modalWrapper = document.querySelector(".modal-block-wrapper")
@@ -233,7 +228,7 @@ function togleModalSize(){
       
        let defaultPrice = modalPrice.textContent.slice(1,modalPrice.textContent.length) - 0;
         defaultPrice = `$${(defaultPrice + (modalSize[i].id-0)).toFixed(2)}`
-       // console.log(defaultPrice)
+       
         modalPrice.textContent = defaultPrice
       })
       
@@ -242,11 +237,11 @@ function togleModalSize(){
 }
 
 function togleModalAdditiv(){
-  //const modalContainer = document.querySelector(".modal-coffee-container")
+  
   const modalSize = document.querySelectorAll(".size-btn");
   const modalPrice = document.querySelector(".total-price");
   const modalAdditiv = document.querySelectorAll(".additiv-btn");
-//  let additivVal = 0;
+
   
 
   for(let i = 0; i<modalAdditiv.length; i++){
@@ -284,7 +279,7 @@ modalWrapper.addEventListener("click",function(e){
 });
 
 
-//modalContainer.addEventListener("click", togglePopap);
+
 modalCloseBtn.addEventListener("click", togglePopap)
 
 const modalContainer = document.querySelector(".modal-coffee-container")
@@ -293,7 +288,7 @@ const modalContainer = document.querySelector(".modal-coffee-container")
 function togglePopap(){
   
   if(modalWrapper.classList.contains('hide')){
-    console.log(2323)
+   
     modalWrapper.classList.add('hide');
     bodyContainer.classList.remove("show")
   } else {

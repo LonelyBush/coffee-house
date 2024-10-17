@@ -97,7 +97,6 @@ function toggleMenu() {
   function moveToLeft(){
     if (window.innerWidth <= 616){
         if (startPosition == 0){
-            console.log(startPosition)
             startPosition = 776
             if (countBars == 0){
                 progressBars[countBars].childNodes[1].style.width = 0;
@@ -209,21 +208,19 @@ function toggleMenu() {
       function PausedMouse(){
        
             isPaused = true
-          console.log(isPaused)
+          
     
       }
 
         
-   // console.log(event.touches[0].pageX)
+   
 
    const progressBars = document.querySelectorAll(".control-btn")
    const progressBar = document.querySelector(".progress")
    let count = 0;
    let countBars = 0;
 
-  console.log(progressBars[0].childNodes[1])
     function progressBarSwitch(){
-            //  console.log(progressBars[0].childNodes[1])
             let interval =  setInterval(() => {
                 if (!isPaused){
                     if (count == 102){

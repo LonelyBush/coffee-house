@@ -1173,6 +1173,22 @@ body.show{
         color: #665F55
     }
 
+    .girl-pic:hover{
+        background-size: 100%;
+    }
+
+    .man-pic:hover{
+        background-size: 100%;
+    }
+
+    .coffee-pic:hover{
+        background-size: 100%;
+    }
+
+    .couple-pic:hover{
+        background-size: 100%;
+    }
+
 
 @media (max-width: 1439px){
     .man-pic{
@@ -1429,6 +1445,13 @@ body.show{
         width: 550px;
         background-size: 170%;
     }
+    .girl-pic:hover{
+        background-size: 180%;
+    }
+
+    .couple-pic:hover{
+        background-size: 180%;
+    }
 }
 
 
@@ -1520,6 +1543,13 @@ body.show{
     .couple-pic{
         width: 348px;
         background-size: 210%;
+    }
+    .girl-pic:hover{
+        background-size: 220%;
+    }
+
+    .couple-pic:hover{
+        background-size: 220%;
     }
 
     .mobile-app-heading{
@@ -1729,21 +1759,7 @@ body.show{
     }
 
     
-    .girl-pic:hover{
-        background-size: 100%;
-    }
 
-    .man-pic:hover{
-        background-size: 100%;
-    }
-
-    .coffee-pic:hover{
-        background-size: 100%;
-    }
-
-    .couple-pic:hover{
-        background-size: 100%;
-    }
 
     .apple-store-btn:hover{
         background: #665F55;
